@@ -8,15 +8,17 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Feed Tôi",
+  title: "Nuôi Khầy - Feed Sensei",
   description:
-    "Trang nuôi tôi phiên bản Next.js, tối ưu deploy Vercel và dùng QR cục bộ thay cho link donate hỏng.",
+    "Feed me bro!",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="vi">
-      <body className={spaceGrotesk.className}>{children}</body>
+    <html lang="vi" suppressHydrationWarning>
+      <body className={spaceGrotesk.className} suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
