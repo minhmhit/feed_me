@@ -122,7 +122,7 @@ export default function HomePage() {
             Tiền chết không mang theo được, tình nghĩa
             anh em cũng chỉ tồn tại ở trên trái đất này thôi. Nhưng mà trải nghiệm cuộc đời
             là mãi mãi, nuôi khầy để không luyến tiếc.
-        
+
           </p>
           <div className="story-note">
             Mọi sự đóng góp đều là động lực thúc đẩy nền kinh tế
@@ -162,7 +162,7 @@ export default function HomePage() {
           </div>
           <div className="empty-state">
             <div className="empty-emoji">✨</div>
-            <h3>Minium donation 10.000 VND</h3>
+            <h3>Minimum donation 10.000 VND</h3>
             <p>
               Quan trọng là tấm lòng
             </p>
